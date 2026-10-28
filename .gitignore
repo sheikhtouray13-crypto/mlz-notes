@@ -1,0 +1,10 @@
+# Secrets — never commit or deploy
+.env
+.env.*
+!.env.example
+assets/js/config.local.js
+supabase/secure*
+supabase/*service*
+supabase/*secret*
+*.service-role
+*.service_role
